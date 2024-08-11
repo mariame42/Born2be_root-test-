@@ -45,8 +45,3 @@ Here's a cleaned-up version with only the numbered lines:
 21. Modify the runtime of the script from 10 minutes to 1.
 
 22. Finally, make the script stop running when the server has started, but without modifying the script.
-image
-Then if you reboot VM, cron.service will be disabled and inactive.
-
-image
-To restart cron with sudo systemctl enable cron and sudo systemctl start cron
